@@ -54,3 +54,13 @@ function procesarEj3() {
     }
     $("#pRes3").html("Hay " + count + " vocales");
 }
+
+function procesarEj4() {
+    var txt1 = $("#txt5").val();
+    $("#pRes4").html(txt1.toLowerCase);
+}
+
+function procesarEj5() {
+    var txt1 = $("#txt6").val();
+    $("#pRes5").html(txt1.toUpperCase);
+}
