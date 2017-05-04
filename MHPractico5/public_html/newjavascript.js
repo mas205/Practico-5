@@ -10,6 +10,8 @@ function iniciar() {
     $("#btnE1").click(procesarEj1);
     $("#btnE2").click(procesarEj2);
     $("#btnE3").click(procesarEj3);
+    $("#btnE4").click(procesarEj4);
+    $("#btnE5").click(procesarEj5);
 }
 
 function procesarEj1() {
@@ -57,10 +59,10 @@ function procesarEj3() {
 
 function procesarEj4() {
     var txt1 = $("#txt5").val();
-    $("#pRes4").html(txt1.toLowerCase);
+    $("#pRes4").html(txt1.toLowerCase());
 }
 
 function procesarEj5() {
     var txt1 = $("#txt6").val();
-    $("#pRes5").html(txt1.toUpperCase);
+    $("#pRes5").html(txt1.toUpperCase());
 }
